@@ -1,5 +1,5 @@
 import Head from "next/head";
-import JokeCard from "./Components/JokeCard";
+import JokeCard from "../components/JokeCard";
 
 export default function Home() {
   return (

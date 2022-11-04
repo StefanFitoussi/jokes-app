@@ -1,5 +1,5 @@
 import useSWR from "swr";
-import { fetcher } from "../api/jokes";
+import { fetcher } from "../helpers/api";
 import styled from "styled-components";
 
 export default function JokeCard() {
