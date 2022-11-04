@@ -18,3 +18,25 @@
     "categories": ["Animals"]
   }
 ]
+
+function getAllJokes() {
+  return data
+}
+
+function getJokeById(jokeId) {
+  return data.find((product) => {
+      console.log(product)
+      return joke.id === jokeId
+  })
+}
+
+function fetcher(url) {
+    return fetch(url).then((res) => res.json())
+}
+
+export default data
+export {
+  getAllJokes,
+  getJokeById,
+  fetcher,
+}

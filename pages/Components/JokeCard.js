@@ -38,7 +38,7 @@ export default function JokeCard() {
 
 const StyledH1 = styled.h1`
   text-align: center;
-  color: darkcyan;
+  color: lightgrey;
 `;
 
 const StyledUlCard = styled.ul`
@@ -51,7 +51,7 @@ const StyledUlCard = styled.ul`
 `;
 
 const Styledli = styled.li`
-  background-color: lightcyan;
+  background-color: lightblue;
   border-radius: 10px;
   min-width: 90vw;
   padding: 1em;
@@ -63,20 +63,19 @@ const Styledli = styled.li`
 `;
 
 const StylePAuthor = styled.p`
-  font-style: italic;
+  color: red;
 `;
 
 const StyledUlCategories = styled.ul`
   list-style: none;
   display: flex;
   justify-items: flex-start;
-  gap: 0.5rem;
+  gap: 1rem;
 `;
 
 const StyledliCategories = styled.li`
-  background-color: black;
+  background-color: grey;
   border-radius: 10px;
   padding: 0.5rem;
   font-size: 0.75rem;
-  color: white;
 `;
